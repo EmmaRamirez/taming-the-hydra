@@ -1,0 +1,15 @@
+0 silly input [ 'https://github.com/piuccio/cowsay.git' ]
+1 silly flags { _: [ 'import' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   pathToRepo: 'https://github.com/piuccio/cowsay.git' }
+2 verbose rootPath C:\Users\EmmaRamirez\Code\taming-the-hydra
+3 info version 2.8.0
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync C:\Users\EmmaRamirez\Code\taming-the-hydra\VERSION
+7 silly initialize attempt
+8 silly statSync C:\Users\EmmaRamirez\Code\taming-the-hydra\https:\github.com\piuccio\cowsay.git
+9 error initialize callback with error
+10 error Error: No repository found at "https://github.com/piuccio/cowsay.git"
+10 error     at ImportCommand.initialize (C:\Users\EmmaRamirez\AppData\Roaming\npm\node_modules\lerna\lib\commands\ImportCommand.js:121:27)
